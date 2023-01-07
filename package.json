@@ -1,0 +1,36 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Learning Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Pavan Sunke",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "js2xml": "^1.0.9",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
+    "node-fetch": "^3.3.0",
+    "validator": "^13.7.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^2.8.1"
+  }
+}
